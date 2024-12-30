@@ -1,0 +1,8 @@
+mykey = "petclinic"
+ami = "ami-0b4624933067d393a"
+region = "us-east-2"
+instance_type = "t3a.medium"
+jenkins_server_secgr = "petclinic-jenkins-server-secgr"
+jenkins-server-tag = "Jenkins Server of Petclinic"
+jenkins-profile = "petclinic-jenkins-server-profile"
+jenkins-role = "petclinic-jenkins-server-role"

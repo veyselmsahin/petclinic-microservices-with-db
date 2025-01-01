@@ -10,7 +10,7 @@ hostnamectl set-hostname jenkins-server
 dnf install git -y
 
 # install java 11
-dnf install java-11-amazon-corretto -y
+dnf install java-17-amazon-corretto -y
 
 # install jenkins
 wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
